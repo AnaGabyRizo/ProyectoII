@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pagos en Línea - Residencial Los Robles</title>
+  <link rel="stylesheet" href="css/pagos.css">
+</head>
+<body>
+    <div class="navbar">
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="pagos.html" class="active">Pago Online</a></li>
+          <li><a href="deudas.html">Deudas</a></li>
+          <li><a href="noticias.html">Noticias</a></li>
+          <li><a href="avisos.html">Avisos</a></li>
+          <li><a href="ayuda.html">Ayuda</a></li>
+        </ul>
+      </div>
+  <header>
+    <h1>Pagos en Línea</h1>
+    <p>Realiza tus pagos de mantenimiento del condominio de forma rápida y segura.</p>
+  </header>
+  <main>
+    <div class="container">
+      <section class="payment-form">
+        <h2>Realizar Pago</h2>
+        <form action="#" method="post">
+          <div class="form-group">
+            <label for="concepto">Concepto:</label>
+            <select id="concepto" name="concepto" required>
+              <option value="">Selecciona un concepto de pago</option>
+              <option value="Mantenimiento">Mantenimiento del Condominio</option>
+              <option value="Jardinería">Pago de Jardinería</option>
+              <option value="Seguridad">Pago de Seguridad</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="monto">Monto a Pagar:</label>
+            <input type="number" id="monto" name="monto" required>
+          </div>
+          <div class="form-group">
+            <label for="tarjeta">Número de Tarjeta:</label>
+            <input type="text" id="tarjeta" name="tarjeta" required>
+          </div>
+          <div class="form-group">
+            <label for="vencimiento">Fecha de Vencimiento:</label>
+            <input type="text" id="vencimiento" name="vencimiento" placeholder="MM/YY" required>
+          </div>
+          <button type="submit">Pagar Ahora</button>
+        </form>
+      </section>
+    </div>
+  </main>
+  <footer>
+    <p>&copy; 2024 Residencial Los Robles. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
